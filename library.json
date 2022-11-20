@@ -1,0 +1,22 @@
+{
+    "name": "hdzero-displayport",
+    "version": "0.0.1",
+    "description": "A library to drive the hdzero vtx via msp displayport",
+    "keywords": "planet, happiness, people",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/bkleiner/hdzero-displayport.git"
+    },
+    "authors": [
+        {
+            "name": "Benedikt Kleiner",
+            "email": "benedikt.kleiner@gmail.com",
+            "maintainer": true
+        }
+    ],
+    "license": "MIT",
+    "frameworks": [
+        "arduino"
+    ],
+    "platforms": "*"
+}
