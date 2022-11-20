@@ -1,6 +1,6 @@
 {
     "name": "hdzero-displayport",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "A library to drive the hdzero vtx via msp displayport",
     "keywords": "planet, happiness, people",
     "repository": {

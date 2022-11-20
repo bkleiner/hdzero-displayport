@@ -1,7 +1,5 @@
 #include "hdzero.h"
 
-#define DEBUG_HDZERO
-
 #ifdef DEBUG_HDZERO
 #define debug_printf(...) Serial.printf(__VA_ARGS__)
 #else

@@ -47,3 +47,24 @@ void loop() {
     hdzero.run();
 }
 ```
+
+## Debug Ouput
+
+You can enable debug output on `Serial` by configuring it in in `setup()`
+
+```cpp
+void setup() {
+    Serial.begin(115200);
+
+    Serial2.begin(115200);
+    hdzero.begin(Serial2);
+}
+```
+
+and defining `DEBUG_HDZERO` in your platfomio configuration
+
+```ini
+[env:myenv]
+build_flags =
+    -DDEBUG_HDZERO
+```
