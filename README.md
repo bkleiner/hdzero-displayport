@@ -1,4 +1,4 @@
-# HDZero Arduino Library
+# HDZeroVTX Arduino Library
 
 Arduino Library to interact with HDZero VTXes via serial port.
 
